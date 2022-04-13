@@ -16,6 +16,19 @@
     --logo-header-color: #000000;
     --footer-phone-color: rgba(255, 255, 255, 0.6);
 }
+
+
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+}
 body {
     background-color: var(--header-color);
     color: var(--titles-color) ;
@@ -42,6 +55,13 @@ body {
 .link {
     text-decoration: none;
 }
+
+.container {
+        width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+    }
 
 .visually-hidden {
     position: absolute;
@@ -326,11 +346,7 @@ color: var(--hero-footer-color);
 background-color: var(--hero-footer-color);
 }
 
-.container {
-    
-    margin-bottom: 60px;
-    margin-top: 0;
-}
+
 .footer-list {
     padding-bottom: 60px;
     padding-top: 20px;
@@ -339,6 +355,7 @@ background-color: var(--hero-footer-color);
     margin-top: 0;
     margin-bottom: 0;
 }
+
 
 .logo-footer{
    display: inline-block;
