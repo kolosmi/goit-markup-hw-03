@@ -4,6 +4,8 @@
 /* цвет подвала  #2F303A */
 /* вторичный цвет фона #F5F4FA */
 
+
+
 :root{
     --header-color: #ffffff;
     --hero-footer-color: #2F303A;
@@ -23,6 +25,7 @@ body {
     letter-spacing: 0.03em;
     }
 
+   
 .footer-list { 
     font-family: 'Roboto';
     font-style: normal;
@@ -56,11 +59,16 @@ body {
 /*header*/
 
 .header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
 background: var(--header-color);
 }
 
 .logo,
 .logo-header {
+    padding-left: 215px ;
     font-family: 'Raleway',sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -117,15 +125,17 @@ color: var(--button-color);
 /*hero*/
 
 .hero {
-   
+ 
 background: var(--hero-footer-color);
 text-align: center;
 margin-bottom: 0;
 }
 
 .hero-title {
-    margin-bottom: 0;
+    margin-bottom: 3opx;
     margin-top: 0;
+    padding-top: 200px;
+    padding-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -133,15 +143,16 @@ margin-bottom: 0;
     text-align: center;
     text-transform: uppercase;
     color: var(--header-color)
+    
    }
 
 .hero-button {
     margin-bottom: 200px;
-    
+    margin-top: 0;
     width: 200px;
     height: 50px;
     display: inline-block;
-    padding: 10px, 32px;
+    padding: 10px, 30px;
     border-radius: 4px;
 font-family: inherit;
 font-style: normal;
@@ -162,7 +173,7 @@ cursor: pointer;
     /*main*/
 
     .features-item-title{
-        
+        margin-top: 94px;
         margin-bottom: 0;
         
     font-weight: 700;
@@ -179,7 +190,7 @@ cursor: pointer;
         line-height: 1.71;               
         color: var(--text-color);}
 
-        .features-list {
+        .features  {
             margin-top: 94px;
             margin-bottom: 0;
         }
@@ -189,6 +200,7 @@ cursor: pointer;
 .product {
     margin-top: 94px;
     margin-bottom: 0;
+    padding-bottom: 94px;
 }
 
 .product-title {
@@ -205,6 +217,7 @@ cursor: pointer;
 .product-list{
     margin-top: 50px;
     margin-bottom: 0;
+    
 }
 /*staff*/
 
@@ -214,13 +227,24 @@ cursor: pointer;
     background: var(--btn-bcg-color);
     margin-top: 94px;
     margin-bottom: 0;
+
+    padding-bottom: 186px;
+    padding-top: 50px;
+}
+
+.staff-photo {
+    margin-bottom: 30px;
+    margin-top: 0;
 }
 .staff-person{
+    padding-bottom: 30px;
     margin-top: 50px;
     margin-bottom: 0;
+    background-color: #ffffff;
+    
 }
 .staff-title {
-    margin-bottom: 0;
+    margin-bottom:50px;
     margin-top: 94px;
 font-weight: 700;
 font-size: 36px;
@@ -230,20 +254,22 @@ text-align: center;
 color: var(--hero-footer-color);
 }
  .staff-name {
-     margin-top: 30px;
-     margin-bottom: 0;
+     margin-top: 0;
+     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.18;      
+    line-height: 1.18; 
+    
     
     color: var(--titles-color);
  }
  .staff-job {
-     margin-top: 10px;
-     margin-bottom: 0;
+     margin-top: 0px;
+     margin-bottom: 30px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
+    
     
     color: var(--text-color);
  }
@@ -295,8 +321,7 @@ color: var(--hero-footer-color);
  /*footer*/
 
 .footer {
-    
-    margin-top: 0;
+       margin-top: 0;
     margin-bottom: 0;
 background-color: var(--hero-footer-color);
 }
@@ -307,13 +332,20 @@ background-color: var(--hero-footer-color);
     margin-top: 0;
 }
 .footer-list {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    padding-left: 215px;
+    padding-right: 1154px;
     margin-top: 0;
+    margin-bottom: 0;
 }
 
-.logo-footer {
-    margin-top: 60px;
-    margin-bottom: 20px;
+.logo-footer{
+   display: inline-block;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-left: 215px;
+    padding-right: 1240px;
     font-family: 'Raleway', sans-serif;
     font-style: normal; 
     font-weight: 700;
