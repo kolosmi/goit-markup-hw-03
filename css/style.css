@@ -67,7 +67,8 @@ body {
 .list {
    padding: 0;
    margin: 0;
-    list-style: none;
+
+   list-style: none;
 }
 
 .link {
@@ -79,6 +80,7 @@ body {
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
+
         outline: 1px solid red;
     }
 
@@ -99,6 +101,7 @@ body {
 
 .header {
     border: 1px solid #ECECEC;
+
     padding-top: 32px;
     padding-bottom: 32px;
     margin-top: 0;
@@ -119,12 +122,15 @@ body {
 }
 
 .header-list .header-item {
-        outline: 1px solid red;  
+
+ outline: 1px solid red;  
     
 }
 
 .header-list .header-item+ .header-item {
+
 margin-left: 50px;
+
 }
 
 
@@ -142,13 +148,15 @@ margin-left: 50px;
 
 .header-page {
     display: block;
-padding-top: 32px;
-padding-bottom: 32px;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
    
 
 .header-item,
 .header-page {
+
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -184,6 +192,7 @@ padding-bottom: 32px;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+
     color: var(--text-color);
 }
 
@@ -202,6 +211,8 @@ padding-bottom: 32px;
 .contacts-item :hover{
 color: var(--button-color);
 }
+
+
 /*first-page*/
 /*hero*/
 
@@ -215,9 +226,7 @@ margin: bottom 0;;
 .hero-title {
         
     width: 696px;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;   
     padding-top: 200px;
     padding-bottom: 30px;
     font-weight: 900;
@@ -232,22 +241,24 @@ margin: bottom 0;;
 
 .hero-button {
     border: 1px transparent;
+    border-radius: 4px;
     margin-bottom: 200px;
     margin-top: 0;
     width: 200px;
     height: 50px;
     display: inline-block;
     padding: 10px, 30px;
-    border-radius: 4px;
-font-family: inherit;
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.06em;
-background-color: var(--button-color);
-color: var(--header-color);
-cursor: pointer;
+    
+    font-family: inherit;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    background-color: var(--button-color);
+
+    color: var(--header-color);
+
+    cursor: pointer;
 }
 
 .hero-button :hover{
@@ -266,10 +277,12 @@ cursor: pointer;
     .features-list .features-item+ .features-item{
         margin-right: 30px;
     }
+
     .features-item-title{
-              margin-top: 94px;
+        margin-top: 94px;
         margin-bottom: 0;
         padding-bottom: 10px;
+
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -281,18 +294,21 @@ cursor: pointer;
     .features-item-title-text {
         width: 270px ;
         margin-bottom: 94px;
+
         font-weight: 400;
-        line-height: 1.71;               
+        line-height: 1.71; 
+
         color: var(--text-color);}
 
-        .features  {
-            margin-top: 94px;
-            margin-bottom: 0;
+    .features  {
+        margin-top: 94px;
+        margin-bottom: 0;
         }
 
 /*product*/
 
 .product {
+
     margin-top: 0;
     margin: bottom 94px;;
     
@@ -301,6 +317,7 @@ cursor: pointer;
 .product-title {
     margin-bottom: 50px;
     margin-top: 0;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;    
@@ -310,9 +327,11 @@ cursor: pointer;
 }
 
 .product-list{
+
     display: flex;
     margin-top: 0;
-    margin-bottom: 94px
+    margin-bottom: 94px;
+
    }
 
    .product-list .product-image+ .product-image{
@@ -325,6 +344,7 @@ cursor: pointer;
 .staff {
     margin-top: 94px;;
     margin-bottom: 0;
+
     background-color: #F5F4FA;
       }  
   
@@ -335,9 +355,9 @@ cursor: pointer;
 }
 
 .staff-person{
-    
-   
+
     background-color: var(--header-color);
+
     border-radius: 0px 0px 4px 4px;
     }
 
@@ -356,6 +376,7 @@ color: var(--hero-footer-color);
  .staff-name {
     margin-top: 0;
     padding-bottom: 10px;
+    padding-left: 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18; 
@@ -366,6 +387,7 @@ color: var(--hero-footer-color);
  .staff-job {
     margin-top: 0px;
     padding-bottom: 30px;
+    padding-left: 24px;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;   
@@ -387,8 +409,9 @@ color: var(--hero-footer-color);
 /*main*/
 
 .navigation-list {
-   justify-content: center;
+    justify-content: center;
     display: flex;
+
     padding-top: 34px;
     margin-top: 94px;
 }
@@ -396,13 +419,15 @@ color: var(--hero-footer-color);
 .navigation-list .btn+ .btn{
     margin-left: 8px;
 }
+
 .navigation-button  {
     border: 1px transparent;
     text-align: center;
-    min-width: 73px;
+    max-width: 145px;
     display: block;
     padding: 6px, 22px;
     border-radius: 4px;
+
     font-family: inherit;
     font-style: normal;
     font-weight: 500;
@@ -417,12 +442,14 @@ color: var(--hero-footer-color);
 
 .navigation-button:hover ,
 .navigation-button:focus{
+
     color: var(--header-color);
     background-color: var(--button-color);
 } 
 
 
 .portfolio-list {
+
     justify-content: space-between;
 }
 
@@ -435,26 +462,33 @@ color: var(--hero-footer-color);
         
 
 .portfolio-list :nth-last-child(-n+3) {
+
     background-color: red;
     margin-bottom: 0;
 }
 
 .portfolio-list {
+
     display: flex;
     flex-wrap: wrap;
     margin-top: 34px;
     margin-bottom: 94px;
+
     background-color: aqua;
 }
  
 .card-border {
+
     border: 1px solid #EEEEEE;
+
     width: 370px;
 
 }
 
 .portfolio-example {
+
     padding-top: 20px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2;        
@@ -464,7 +498,9 @@ color: var(--hero-footer-color);
 }
 
 .portfolio-option {
+
     padding-top: 4px;
+
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;    
@@ -478,6 +514,7 @@ color: var(--hero-footer-color);
 .footer {
     margin-top: 0;
     margin-bottom: 0;
+
     background-color: var(--hero-footer-color);
    }
 
@@ -502,19 +539,22 @@ color: var(--hero-footer-color);
     color: var(--header-color);
 }
 
-.footer-address, .footer-mail {         
+.footer-address, .footer-mail {  
+
     padding-bottom:9px;  
 
     color: var(--header-color);
 }
 
 .footer-address :hover{
+
     color: var(--button-color);
 }
 
 
 .footer-mail,
-.footer-phone {        
+.footer-phone { 
+           
     color: var(--footer-phone-color);
 }
 
