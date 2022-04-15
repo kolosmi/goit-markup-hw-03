@@ -421,11 +421,11 @@ color: var(--hero-footer-color);
 }
 
 .navigation-button  {
+    padding: 6px, 22px;
     border: 1px transparent;
     text-align: center;
     max-width: 145px;
     display: block;
-    padding: 6px, 22px;
     border-radius: 4px;
 
     font-family: inherit;
@@ -438,6 +438,7 @@ color: var(--hero-footer-color);
     color: var(--titles-color);
     cursor: pointer;
 }
+
 
 
 .navigation-button:hover ,
@@ -554,7 +555,7 @@ color: var(--hero-footer-color);
 
 .footer-mail,
 .footer-phone { 
-           
+
     color: var(--footer-phone-color);
 }
 
