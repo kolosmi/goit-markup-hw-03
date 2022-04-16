@@ -73,6 +73,7 @@ body {
 
 .link {
     text-decoration: none;
+    list-style: none;
 }
 
 .container {
@@ -421,24 +422,22 @@ color: var(--hero-footer-color);
 }
 
 .navigation-button  {
-    padding: 6px, 22px;
-    border: 1px transparent;
+    padding: 6px 22px;
     text-align: center;
     max-width: 145px;
     display: block;
     border-radius: 4px;
-
+    border: 1px solid transparent;
     font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;      
-   
+
     background-color:var(--btn-bcg-color);
     color: var(--titles-color);
     cursor: pointer;
 }
-
 
 
 .navigation-button:hover ,
@@ -526,6 +525,10 @@ color: var(--hero-footer-color);
    }
 
 
+.footer-list :hover {
+    color: var(--button-color)
+}
+
 .logo-footer{
     display: inline-block;
     margin-top: 60px;
@@ -547,10 +550,6 @@ color: var(--hero-footer-color);
     color: var(--header-color);
 }
 
-.footer-address :hover{
-
-    color: var(--button-color);
-}
 
 
 .footer-mail,
