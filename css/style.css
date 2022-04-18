@@ -133,12 +133,6 @@ margin-left: 50px;
     
          }
 
-.header-item :hover, 
-.header-item :focus { 
-   
-    color: var(--button-color);
-    background-color: var(--header-color);
-}
 
 .current {
     color: var(--button-color)
@@ -168,13 +162,21 @@ margin-left: 50px;
 }
 
 
+.header-item :hover,
+.header-item :focus {
 
-.main-nav :hover,
-.main-nav :focus {
+    color: var(--button-color);
+    background-color: var(--header-color);
+}
+
+.contacts-item :hover,
+.contacts-item :focus {
     color: var(--button-color);
 }
 
+
 /*first-page*/
+
 /*hero*/
 
 .hero {
@@ -303,14 +305,13 @@ padding-bottom: 280px;
     margin-top: 94px;
     margin-bottom: 0;
 
-    background-color: #F5F4FA;
+    background-color: #F5F4FA;   
       }  
-  
 
-.staff-photo {
-    padding-bottom: 30px;
-    margin-top: 0;
-}
+ .position {
+     padding: 30px 0;
+     text-align: center;
+ } 
 
 .staff-person{
 
@@ -332,8 +333,8 @@ color: var(--hero-footer-color);
 
  .staff-name {
     margin-top: 0;
-    padding-bottom: 10px;
-    padding-left: 24px;
+    margin-bottom: 10px;
+    text-align: center;
 
     font-weight: 500;
     font-size: 16px;
@@ -344,9 +345,7 @@ color: var(--hero-footer-color);
 
  .staff-job {
     margin-top: 0px;
-    padding-bottom: 30px;
-    padding-left: 24px;
-
+    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;   
@@ -485,7 +484,7 @@ margin-right: 30px;
 
 .logo-footer{
     display: inline-block;
-    margin-top: 60px;
+   
     margin-bottom: 20px;
     
     font-family: 'Raleway', sans-serif;
@@ -499,8 +498,6 @@ margin-right: 30px;
 
 .footer-address, .footer-mail {  
 
-    margin-bottom:9px;  
-
     color: var(--header-color);
 }
 
@@ -512,4 +509,10 @@ margin-right: 30px;
     color: var(--footer-phone-color);
 }
 
+.footer-item {
+    margin-bottom: 9px;
+}
 
+.footer-item :last-child {
+    margin-bottom: 0;
+}
